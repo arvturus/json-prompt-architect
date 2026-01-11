@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -71,3 +72,7 @@ export default defineConfig([
   },
 ])
 ```
+=======
+# json-prompt-architect
+generate prompt type json
+>>>>>>> 7ae839b46ae390992062aff57ee621e58e0a1c2e

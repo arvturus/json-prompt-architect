@@ -1,11 +1,11 @@
-import React, { useState, useRef, useEffect } from 'react';
-import { Upload, Video, Image as ImageIcon, Sparkles, Copy, Check, AlertCircle, Loader2, Wand2, Info, FileJson, Trash2, Type, Braces, Layers, Key, ExternalLink } from 'lucide-react';
+import React, { useState, useRef } from 'react';
+import { Upload, Video, Sparkles, Copy, Check, AlertCircle, Loader2, Wand2, Info, FileJson, Trash2, Type, Braces, Layers, Key, ExternalLink } from 'lucide-react';
+
 
 export default function App() {
   // --- STATE API KEY (PENTING UNTUK DEPLOYMENT) ---
   // Di website asli, user harus memasukkan key mereka sendiri agar kuota Anda tidak tersedot/bocor.
   const [userApiKey, setUserApiKey] = useState("");
-  const [showApiKeyInput, setShowApiKeyInput] = useState(true);
 
   // Mode: 'visual' (upload file) atau 'text' (input kata kunci)
   const [mode, setMode] = useState<'visual' | 'text'>('visual');
